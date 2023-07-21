@@ -104,16 +104,11 @@ Dans ce fichier, définissez le contenu de l'e-mail. Par exemple :
 <code><pre>
 <!-- resources/views/emails/birthday-reminder.blade.php -->
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Birthday Reminder</title>
-</head>
-<body>
-    <h1>Hello {{ $user->name }},</h1>
-    <p>Just a reminder that your birthday is tomorrow. Don't forget to celebrate!</p>
-</body>
-</html>
+
+
+    Salut {{ $user->name }},
+    <p>N'oublie pas de célebrer ta fete demain ;)</p>
+
 </pre></code>
 
 
